@@ -12,7 +12,7 @@ RSpec.describe 'As a visitor', type: :feature do
       visit "/movies/#{movie_2.id}"
       expect(page).to have_content(movie_2.name)
       click_on "Add Actor"
-      expect(current_path).to eq("/movies/#{movie_2.id}/actor_movies")
+      expect(current_path).to eq("/movies/#{movie_2.id}/actors/#{actor_1.id}")
   end
 
  end
