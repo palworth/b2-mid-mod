@@ -15,8 +15,11 @@ RSpec.describe 'As a visitor', type: :feature do
       expect(page).to have_content(movie_1.name)
       expect(page).to have_content(movie_1.year)
       expect(page).to have_content(movie_1.genre)
-      # expect(page).to have_content("Actor List: Mike Pete")
+      expect(page).to have_content("Mike")
+      expect(page).to have_content("Pete")
       expect(page).to have_content("Average age: 31")
+    
+
   end
  end
 end
