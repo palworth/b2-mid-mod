@@ -20,6 +20,3 @@ RSpec.describe 'As a visitor', type: :feature do
   end
  end
 end
-
-# When I visit an actor's show page,
-# I see their name, their age, and a list of the names of all of the movies they are in.
