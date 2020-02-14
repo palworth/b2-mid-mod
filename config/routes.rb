@@ -5,5 +5,5 @@ Rails.application.routes.draw do
 
   get '/movies/:id', to: 'movies#show'
 
-  patch 'movies/:movie_id/actors/:id', to: 'actor_movies#update'
+  patch '/movies/:movie_id/actors/:id', to: 'actor_movies#update'
 end
