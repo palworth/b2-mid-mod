@@ -12,8 +12,6 @@ RSpec.describe " When I visit studio index" do
       expect(page).to have_content(movie_1.name)
       expect(page).to have_content(studio_2.name)
       expect(page).to have_content(movie_2.name)
-      save_and_open_page
-      
 
   end
 
