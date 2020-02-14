@@ -1,8 +1,8 @@
 <section>
 <% @studios.each do |studio| %>
-<%= studio.name %>
+<h2><%= studio.name %> </h2>
 <% studio.movies.each do |movie| %>
-<%= movie.name %>
+<p><%= movie.name %></p><br>
 <% end %>
 <% end %>
 </section>
